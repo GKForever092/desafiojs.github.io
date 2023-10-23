@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* container (card) */
+
+.container img{
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 2px;
+    border: solid black;
+    width: 300px;
+    margin-right: 20px;
+}
+
+/* info */
+
+    .info{
+        display: flex;
+    }
+    
+    .info p{
+        padding: 4px;
+    }
+
+/* Main */
+
+main{
+    display: flex;
+    margin: 20px;
+}
+
+/* container 2 */
+
+.container2{
+    display: flex;
+    align-items: center;
+
+}
+
+.container2 p{
+    margin: 5px;
+}
+
+
+/* buttons */
+
+button{
+    background-color: cyan;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+}
